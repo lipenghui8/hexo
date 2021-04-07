@@ -1,0 +1,12 @@
+admin:
+  username: glassysky
+  password_hash: $2a$10$e5fCf81jIMdI6hQvVTLPROUrqPhgnCBUXIvIIo8MEWfDXaQXlwVsy
+  secret: glassysky
+  deployCommand: 'deploy.bat'
+options:
+  lineNumbers: true
+  spellcheck: true
+editor:
+  lineNumbers: true
+  inputStyle: contenteditable
+  spellcheck: true

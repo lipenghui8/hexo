@@ -1,0 +1,43 @@
+- class_name: 友情链接
+  class_desc: 匆匆时光，感谢相遇
+  link_list:
+    - name: 远方有你伴余生(博客园)
+      link: https://cnblogs.com/glassysky/
+      avatar: https://jerryc.me/image/avatar.png
+      descr: 博主的博客园地址
+    - name: 生活不允許你的軟弱
+      link: https://cnblog.com/haochenQAQ/
+      avatar: https://jerryc.me/image/avatar.png
+      descr: 博主的同事
+    - name: 远方有你伴余生的github
+      link: https://github.com/glassy-sky-lisong/
+      avatar: https://jerryc.me/image/avatar.png
+      descr: 博主的github
+    - name: 远方有你伴余生的gitee
+      link: https://glassyskyforgame.gitee.com/
+      avatar: https://jerryc.me/image/avatar.png
+      descr: 博主的码云地址
+    - name: vuepress-Demo
+      link: https://glassyskyforgame.gitee.com/glassyskyblog
+      avatar: https://jerryc.me/image/avatar.png
+      descr: 博主搭建的基于vuepress的博客，欢迎观赏
+    - name: Hexo
+      link: https://hexo.io/zh-tw/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、簡單且強大的網誌框架
+
+- class_name: 網站
+  class_desc: 程序员必知网站
+  link_list:
+    - name: 全栈开发者
+      link: https://www.jser.com/
+      avatar: http://staticfile.jser.com/img/favicon.ico
+      descr: 全栈学习网站
+    - name: CSDN
+      link: https://www.csdn.net/
+      avatar: https://csdnimg.cn/public/favicon.ico
+      descr: 中國较早的程序员交流平台
+    - name: 掘金
+      link: https://juejin.im/
+      avatar: https://b-gold-cdn.xitu.io/favicons/v2/favicon-32x32.png
+      descr: 程序员大佬的软文平台
