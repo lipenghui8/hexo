@@ -60,7 +60,7 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  fab fa-github: https://github.com/xxxxx || Github
+  fab fa-github: https://github.com/lipenghuihenu || Github
   fas fa-envelope: 493284461@qq.com || Email
 
 # search (搜索)
@@ -118,13 +118,13 @@ index_img:
   - /img/cover/bg0.jpg
   - /img/cover/bg1.jpg
   - /img/cover/bg2.jpg
-  - /img/cover/bg3.jpeg
+  - /img/cover/bg3.jpg
   - /img/cover/bg4.jpg
-  - /img/cover/bg5.jpeg
+  - /img/cover/bg5.jpg
   - /img/cover/bg6.jpg
-  - /img/cover/bg7.jpeg
-  - /img/cover/bg8.jpeg
-  - /img/cover/bg9.jpeg
+  - /img/cover/bg7.jpg
+  - /img/cover/bg8.jpg
+  - /img/cover/bg9.jpg
   - /img/cover/bg10.jpg
 
 # if the banner of page not setting,it will show the top_img
@@ -132,13 +132,13 @@ default_top_img:
   - /img/cover/bg0.jpg
   - /img/cover/bg1.jpg
   - /img/cover/bg2.jpg
-  - /img/cover/bg3.jpeg
+  - /img/cover/bg3.jpg
   - /img/cover/bg4.jpg
-  - /img/cover/bg5.jpeg
+  - /img/cover/bg5.jpg
   - /img/cover/bg6.jpg
-  - /img/cover/bg7.jpeg
-  - /img/cover/bg8.jpeg
-  - /img/cover/bg9.jpeg
+  - /img/cover/bg7.jpg
+  - /img/cover/bg8.jpg
+  - /img/cover/bg9.jpg
   - /img/cover/bg10.jpg
 
 # the banner image of archive page
@@ -146,13 +146,13 @@ archive_img:
   - /img/cover/bg0.jpg
   - /img/cover/bg1.jpg
   - /img/cover/bg2.jpg
-  - /img/cover/bg3.jpeg
+  - /img/cover/bg3.jpg
   - /img/cover/bg4.jpg
-  - /img/cover/bg5.jpeg
+  - /img/cover/bg5.jpg
   - /img/cover/bg6.jpg
-  - /img/cover/bg7.jpeg
-  - /img/cover/bg8.jpeg
-  - /img/cover/bg9.jpeg
+  - /img/cover/bg7.jpg
+  - /img/cover/bg8.jpg
+  - /img/cover/bg9.jpg
   - /img/cover/bg10.jpg
 
 # the banner image of tag page
@@ -161,13 +161,13 @@ tag_img:
   - /img/cover/bg0.jpg
   - /img/cover/bg1.jpg
   - /img/cover/bg2.jpg
-  - /img/cover/bg3.jpeg
+  - /img/cover/bg3.jpg
   - /img/cover/bg4.jpg
-  - /img/cover/bg5.jpeg
+  - /img/cover/bg5.jpg
   - /img/cover/bg6.jpg
-  - /img/cover/bg7.jpeg
-  - /img/cover/bg8.jpeg
-  - /img/cover/bg9.jpeg
+  - /img/cover/bg7.jpg
+  - /img/cover/bg8.jpg
+  - /img/cover/bg9.jpg
   - /img/cover/bg10.jpg
 
 # the banner image of category page
@@ -176,13 +176,13 @@ category_img:
   - /img/cover/bg0.jpg
   - /img/cover/bg1.jpg
   - /img/cover/bg2.jpg
-  - /img/cover/bg3.jpeg
+  - /img/cover/bg3.jpg
   - /img/cover/bg4.jpg
-  - /img/cover/bg5.jpeg
+  - /img/cover/bg5.jpg
   - /img/cover/bg6.jpg
-  - /img/cover/bg7.jpeg
-  - /img/cover/bg8.jpeg
-  - /img/cover/bg9.jpeg
+  - /img/cover/bg7.jpg
+  - /img/cover/bg8.jpg
+  - /img/cover/bg9.jpg
   - /img/cover/bg10.jpg
 
 # If you are using hexo-douban, you can configure it (如果你有使用 hexo-douban,可配置這個)
@@ -205,13 +205,13 @@ cover:
     - /img/cover/bg0.jpg
     - /img/cover/bg1.jpg
     - /img/cover/bg2.jpg
-    - /img/cover/bg3.jpeg
+    - /img/cover/bg3.jpg
     - /img/cover/bg4.jpg
-    - /img/cover/bg5.jpeg
+    - /img/cover/bg5.jpg
     - /img/cover/bg6.jpg
-    - /img/cover/bg7.jpeg
-    - /img/cover/bg8.jpeg
-    - /img/cover/bg9.jpeg
+    - /img/cover/bg7.jpg
+    - /img/cover/bg8.jpg
+    - /img/cover/bg9.jpg
     - /img/cover/bg10.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
@@ -382,7 +382,7 @@ valine:
   pageSize: 10 # comment list page size
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
   lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
-  placeholder: 请留下你的姓名 # valine comment input placeholder(like: Please leave your footprints )
+  placeholder: 说点什么吧... # valine comment input placeholder(like: Please leave your footprints )
   guest_info: nick,mail,link #valine comment header info (nick/mail/link)
   recordIP: true # Record reviewer IP
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
@@ -447,16 +447,16 @@ gitter:
 # Footer Settings
 # --------------------------------------
 
-since: 2020
+since: 2019
 
 footer_custom_text:
 
 footer_copyright: true
 
 ICP:
-  enable: false
-  url:
-  text:
+  enable: true
+  url: https://beian.miit.gov.cn/
+  text: 湘ICP备2020019092号
   icon: /img/icp.png
 
 # Analysis
@@ -545,7 +545,7 @@ tag_ui: # 留空或 index
 # The formal of color: '#49B202'
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
 # White color will be shown as default
-background: url('/img/banner/4.jpg')
+background: url('https://img-blog.csdnimg.cn/2021040721174626.jpg')
 
 # Show the footer background image (same as top_img)
 footer_bg: false
@@ -607,7 +607,7 @@ ClickShowText:
 
 # Default display mode (網站默認的顯示模式)
 # light (default) / dark
-display_mode: dark
+display_mode: light
 
 # Beautify (美化頁面顯示)
 beautify:
@@ -648,13 +648,13 @@ subtitle:
   # source: 3  調用一句網（簡體） http://yijuzhan.com/
   # source: 4  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
-  source: 1
+  source: 2
   # 如果有英文逗號' , ',請使用轉義字元 &#44;
   # 如果有英文雙引號' " ',請使用轉義字元 &quot;
   # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
   sub:
-    - 今日事&#44;今日畢
+    - 今日事&#44;今日毕
     - Never put off till tomorrow what you can do today
 
 # Loading Animation (加載動畫)

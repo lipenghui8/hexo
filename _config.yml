@@ -13,9 +13,9 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://example.com
+url: https://lipenghuihenu.gitee.io/
 root: /
-permalink: :year/:month/:day/:title/
+permalink: posts/:abbrlink/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -94,11 +94,11 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 #搜索服务
 algolia:
-  appId: "7EBCAWDLJC"
-  apiKey: "2dc023567182bf05f8e2c085df2047aa"
-  adminApiKey: "9d4e5a1950095e2f6ae06315c6219e9b"
+  appId: "NGSMZUNJ0F"
+  apiKey: "f1320898cac0cb49c20e581467756e93"
+  adminApiKey: "8e446d21bec8dcacc267e465e9994a88"
   chunkSize: 5000
-  indexName: "glassysky"
+  indexName: "lipenghui"
   fields:
     - content:strip:truncate,0,500
     - excerpt:strip
@@ -143,9 +143,16 @@ theme: Butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: 'git'
-  repo: git@github.com:lipenghuihenu/lipenghuihenu.github.io.git
-  branch: master
+  type: git
+  repo:
+      github: git@github.com:lipenghuihenu/lipenghuihenu.github.io.git,master
+      gitee: git@gitee.com:lipenghuihenu/lipenghuihenu.git,master
+      ## coding: git@git.coding.net:enfang/enfang.git,master
+ ## repo:
+    ## github: git://github.com/lipenghuihenu/lipenghuihenu.github.io.git,master
+    ## coding: https://e.coding.net/lphblog/lipenghuihenu/lipenghuihenu.coding.me.git,master
+    ## https://gitee.com/lipenghuihenu/lipenghuihenu.git,master
+branch: master
 
 # plugins:
 #   - hexo-algoliasearch

@@ -1,26 +1,22 @@
 - class_name: 友情链接
   class_desc: 匆匆时光，感谢相遇
   link_list:
-    - name: 远方有你伴余生(博客园)
-      link: https://cnblogs.com/glassysky/
+    - name: 煮酒、(CSDN)
+      link: https://blog.csdn.net/lph1912080122
       avatar: https://jerryc.me/image/avatar.png
-      descr: 博主的博客园地址
+      descr: 博主的CSDN地址
     - name: 生活不允許你的軟弱
       link: https://cnblog.com/haochenQAQ/
       avatar: https://jerryc.me/image/avatar.png
       descr: 博主的同事
-    - name: 远方有你伴余生的github
-      link: https://github.com/glassy-sky-lisong/
+    - name: 煮酒的github
+      link: https://github.com/lipenghuihenu/
       avatar: https://jerryc.me/image/avatar.png
       descr: 博主的github
-    - name: 远方有你伴余生的gitee
-      link: https://glassyskyforgame.gitee.com/
+    - name: 煮酒的gitee
+      link: https://lipenghuihenu.gitee.com/
       avatar: https://jerryc.me/image/avatar.png
       descr: 博主的码云地址
-    - name: vuepress-Demo
-      link: https://glassyskyforgame.gitee.com/glassyskyblog
-      avatar: https://jerryc.me/image/avatar.png
-      descr: 博主搭建的基于vuepress的博客，欢迎观赏
     - name: Hexo
       link: https://hexo.io/zh-tw/
       avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg

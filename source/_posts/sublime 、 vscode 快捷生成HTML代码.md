@@ -1,7 +1,9 @@
-﻿
+---
+abbrlink: 3541
+---
+
 >文章转载自https://www.cnblogs.com/suitongyu/p/12043791.html
 
-@[TOC](目录)
 ## 基本html结构
 输入 **!+Enter**
 ```html
