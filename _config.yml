@@ -4,9 +4,9 @@
 
 # Site
 title: 煮酒の博客
-subtitle: '欢迎加入'
-description: '煮酒'
-keywords:
+subtitle: ''
+description: '分享学习心得'
+keywords: '煮酒的博客,李鹏辉的博客网站,辉哥的网站'
 author: 煮酒
 language: zh-CN
 timezone: ''
@@ -126,6 +126,10 @@ search:
   field: post
   content: true
 
+# 自动生成sitemap
+baidusitemap:
+path: baidusitemap.xml
+
 aplayer:
   meting: true
 
@@ -147,6 +151,7 @@ deploy:
   repo:
       github: git@github.com:lipenghuihenu/lipenghuihenu.github.io.git,master
       gitee: git@gitee.com:lipenghuihenu/lipenghuihenu.git,master
+      server: git@101.34.91.225:/home/git/repos/blog.git,master
       ## coding: git@git.coding.net:enfang/enfang.git,master
  ## repo:
     ## github: git://github.com/lipenghuihenu/lipenghuihenu.github.io.git,master
@@ -156,4 +161,3 @@ branch: master
 
 # plugins:
 #   - hexo-algoliasearch
-
