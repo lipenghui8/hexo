@@ -454,7 +454,7 @@ footer_copyright: true
 ICP:
   enable: true
   url: https://beian.miit.gov.cn/
-  text: 湘ICP备2020019092号
+  text: 湘ICP备2020019092号-2
   icon: /img/icp.png
 
 # Analysis
